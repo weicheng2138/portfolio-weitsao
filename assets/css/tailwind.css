@@ -1,0 +1,11 @@
+/* ./assets/css/tailwind.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply tracking-wide font-notoSans font-normal;
+}
