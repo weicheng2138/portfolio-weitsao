@@ -6,11 +6,13 @@
             flex flex-row
             justify-between
             items-center
-            w-full
-            py-2
-            px-8
-            shadow-sm
             bg-secondary01
+            w-full
+            h-[56px]
+            shadow-sm
+            px-4
+            md:px-8
+            lg:px-32
         "
     >
         <div>
@@ -53,8 +55,8 @@
                     :key="link.name"
                     :to="{ path: link.url }"
                     class="
-                        mr-6
-                        py-1
+                        mr-11
+                        py-[15px]
                         inline-block
                         hover:text-primary
                         focus:border-b-2 focus:border-primary
@@ -65,7 +67,14 @@
                 <a
                     href="/weichenghung_cv_l2.pdf"
                     target="_blank"
-                    class="border border-black rounded-full py-1 px-4"
+                    class="
+                        inline-block
+                        border border-black
+                        rounded-full
+                        my-[11px]
+                        py-1
+                        px-4
+                    "
                 >
                     下載履歷
                 </a>
