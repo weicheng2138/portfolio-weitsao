@@ -6,6 +6,31 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  box-sizing: border-box;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 100%;
+}
+
 p {
   @apply tracking-wide font-notoSans font-normal;
+}
+
+a {
+  @apply font-sans;
+}
+main {
+  @apply lg:px-36 lg:py-48 lg:w-full lg:max-w-[1600px] lg:min-h-screen lg:my-0 lg:mx-auto
+  md:px-24 md:py-48 sm:px-12 sm:py-36 px-6 py-32;
+}
+
+.fillHeight {
+  @apply lg:px-36 lg:py-0 md:px-24 md:py-0 sm:px-12 sm:py-0 px-6 py-0;
 }

@@ -2,7 +2,6 @@
     <div
         class="
             p-6
-            bg-secondary01
             h-screen
             flex flex-col
             justify-center
@@ -18,8 +17,8 @@
             </p>
             <p class="text-xl">
                 讓我們從這裡
-                <a
-                    href="/"
+                <NuxtLink
+                    to="/"
                     class="
                         w-[120px]
                         inline-block
@@ -34,7 +33,7 @@
                         py-1
                         font-notoSans
                     "
-                    >回到首頁</a
+                    >回到首頁</NuxtLink
                 >
                 吧！
             </p>
@@ -43,8 +42,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+    layout: 'error',
+    // eslint-disable-next-line vue/require-prop-types
+    props: ['error'], // you can set a custom layout for the error page
+}
 </script>
-
-<style lang="scss" scoped>
-</style>

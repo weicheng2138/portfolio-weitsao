@@ -13,9 +13,18 @@ module.exports = {
       wide: '.1em',
     },
     screens: {
-      sm: '414px',
+      sm: '490px',
       md: '768px',
       lg: '1080px',
+    },
+
+    borderWidth: {
+      DEFAULT: '1px',
+      0: '0',
+      0.5: '0.5px',
+      2: '2px',
+      3: '3px',
+      4: '4px',
     },
     extend: {
       colors: {

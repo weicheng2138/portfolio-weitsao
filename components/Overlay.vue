@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <header>DDD</header>
-    </div>
+    <div class="fixed inset-0 backdrop-filter backdrop-blur-sm"></div>
 </template>
 
 <script>
