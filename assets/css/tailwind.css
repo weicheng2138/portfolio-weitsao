@@ -6,6 +6,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  main {
+    @apply lg:px-24 lg:pt-48 lg:w-full lg:min-h-screen lg:my-0 lg:mx-auto
+    md:px-8 md:pt-48 sm:px-8 sm:pt-36 px-4 pt-24;
+  }
+}
+
 html {
   box-sizing: border-box;
   width: 100%;
@@ -17,19 +24,26 @@ html {
   display: grid;
   grid-template-rows: 1fr auto;
   grid-template-columns: 100%;
-  @apply tracking-wide;
 }
 
 p {
-  @apply font-notoSans font-normal;
+  @apply font-notoSans text-secondary03;
+}
+
+h1 {
+  @apply font-notoSerif text-[32px] tracking-wide;
+}
+
+h2 {
+  @apply font-notoSans text-xl tracking-wide text-secondary04;
+}
+
+li {
+  @apply font-notoSans text-secondary03;
 }
 
 a {
   @apply font-sans;
-}
-main {
-  @apply lg:px-36 lg:py-48 lg:w-full lg:max-w-[1600px] lg:min-h-screen lg:my-0 lg:mx-auto
-  md:px-24 md:py-48 sm:px-12 sm:py-36 px-6 py-32;
 }
 
 .fillHeight {

@@ -10,6 +10,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     letterSpacing: {
+      normal: '0em',
       wide: '.1em',
     },
     screens: {

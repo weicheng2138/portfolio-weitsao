@@ -45,3 +45,8 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 | Lightest Slate             | ![#b5b5b5](https://via.placeholder.com/10/b5b5b5?text=+) `#b5b5b5` |
 | White                      | ![#ced4da](https://via.placeholder.com/10/ced4da?text=+) `#ced4da` |
 | Orange (bcColor)           | ![#ef8354](https://via.placeholder.com/10/ef8354?text=+) `#ef8354` |
+
+## Developing Tips
+
+- When you try to pass img url string as props to a component, the props you need to pass as
+  `require('~/assets/img/metro-cover.png')`

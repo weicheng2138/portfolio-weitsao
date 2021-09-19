@@ -11,8 +11,7 @@
             h-[56px]
             shadow-sm
             px-4
-            md:px-8
-            lg:px-32
+            md:justify-evenly
         "
     >
         <div>
