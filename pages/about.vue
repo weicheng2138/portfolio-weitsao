@@ -71,7 +71,7 @@
                 <div class="flex flex-col justify-center">
                     <h1 class="text-xl mb-3">國際訂房 OP 專員</h1>
                     <span class="font-sans text-secondary04 mb-1"
-                        >雄獅旅行社 2016.Sep ~ 2020.Dec</span
+                        >雄獅旅行社&nbsp;&nbsp;2016.Sep ~ 2020.Dec</span
                     >
                     <ul class="pl-4">
                         <li>處理國際訂房相關事務，具備危機處理能力。</li>
@@ -86,7 +86,7 @@
                 <div class="flex flex-col justify-center sm:w-[352px]">
                     <h1 class="text-xl mb-3">門市業務專員</h1>
                     <span class="font-sans text-secondary04 mb-1"
-                        >雄獅旅行社 2014.Mar ~ 2016.Sep</span
+                        >雄獅旅行社&nbsp;&nbsp;2014.Mar ~ 2016.Sep</span
                     >
                     <ul class="pl-4">
                         <li>具備產品銷售技能。</li>
@@ -104,7 +104,7 @@
                 <div class="flex flex-col justify-center">
                     <h1 class="text-xl mb-3">國立彰化師範大學</h1>
                     <span class="font-sans text-secondary04 mb-1"
-                        >國文學系 2009.Sep ~ 2013.Jun</span
+                        >國文學系&nbsp;&nbsp;2009.Sep ~ 2013.Jun</span
                     >
                     <ul class="pl-4">
                         <li>
