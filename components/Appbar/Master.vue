@@ -55,7 +55,7 @@
                     :key="link.name"
                     :to="{ path: link.url }"
                     class="
-                        mr-11
+                        px-5
                         py-[15px]
                         inline-block
                         hover:text-primary
@@ -72,6 +72,7 @@
                         border border-black
                         rounded-full
                         my-[11px]
+                        ml-2
                         py-1
                         px-4
                     "

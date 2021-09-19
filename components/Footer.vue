@@ -12,31 +12,41 @@
             sm:h-60
         "
     >
-        <div class="mb-20 mt-10">
-            <img
-                src="~/static/behance.svg"
-                width="35"
-                height="35"
-                alt="behance-icon"
-            />
-            <img
-                src="~/static/ig.svg"
-                width="35"
-                height="35"
-                alt="behance-icon"
-            />
-            <img
-                src="~/static/CakeResume.svg"
-                width="35"
-                height="35"
-                alt="behance-icon"
-            />
-            <img
-                src="~/static/gmail.svg"
-                width="35"
-                height="35"
-                alt="behance-icon"
-            />
+        <div class="social mb-20 mt-10">
+            <a href="http://">
+                <img
+                    src="~/static/behance.svg"
+                    width="35"
+                    height="35"
+                    alt="behance-icon"
+                />
+            </a>
+
+            <a href="http://">
+                <img
+                    src="~/static/ig.svg"
+                    width="35"
+                    height="35"
+                    alt="ig-icon"
+                />
+            </a>
+
+            <a href="">
+                <img
+                    src="~/static/CakeResume.svg"
+                    width="35"
+                    height="35"
+                    alt="CakeResume-icon"
+                />
+            </a>
+            <a href="http://">
+                <img
+                    src="~/static/gmail.svg"
+                    width="35"
+                    height="35"
+                    alt="gmail-icon"
+                />
+            </a>
         </div>
         <div>
             <a href="/">
@@ -81,7 +91,10 @@ export default {
 </script>
 
 <style  scoped>
-img {
-    @apply inline-block mx-3;
+.social a {
+    @apply inline-block relative w-10 h-10 mx-3 rounded-md hover:shadow-md transition-shadow;
+}
+.social img {
+    @apply block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
 }
 </style>
