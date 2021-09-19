@@ -17,10 +17,11 @@ html {
   display: grid;
   grid-template-rows: 1fr auto;
   grid-template-columns: 100%;
+  @apply tracking-wide;
 }
 
 p {
-  @apply tracking-wide font-notoSans font-normal;
+  @apply font-notoSans font-normal;
 }
 
 a {

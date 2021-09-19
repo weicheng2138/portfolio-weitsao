@@ -12,7 +12,7 @@
             sm:h-60
         "
     >
-        <div class="social mb-20 mt-10">
+        <div class="social">
             <a href="http://">
                 <img
                     src="~/static/behance.svg"
@@ -68,8 +68,8 @@
                 "
                 >WEI．TSAO</a
             >
-            <p class="text-secondary03 font-notoSans text-xs mb-10 leading-5">
-                <br />© 2021 Designed by Winnie Tsao <br />
+            <p class="text-secondary03 text-xs mt-3">
+                © 2021 Designed by Winnie Tsao <br />
                 Built by Keck Hung
             </p>
         </div>
