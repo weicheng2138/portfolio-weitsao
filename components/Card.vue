@@ -14,7 +14,6 @@
             hover:shadow-md
             hover:cursor-pointer
         "
-        @click="goToRoute()"
     >
         <img
             :src="imgUrl"
@@ -62,10 +61,6 @@
 <script>
 export default {
     props: {
-        // eslint-disable-next-line vue/require-default-prop
-        route: {
-            type: String,
-        },
         imgUrl: {
             default: 'imgUrl',
             type: String,
@@ -81,11 +76,6 @@ export default {
         // eslint-disable-next-line vue/require-default-prop
         projectTagTime: {
             type: Object,
-        },
-    },
-    methods: {
-        goToRoute() {
-            this.$router.push(this.route)
         },
     },
 }

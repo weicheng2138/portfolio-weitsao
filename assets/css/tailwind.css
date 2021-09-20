@@ -38,6 +38,10 @@ h2 {
   @apply font-notoSans text-xl tracking-wide text-secondary04;
 }
 
+h3 {
+  @apply font-notoSerif text-[20px] text-primaryDark;
+}
+
 li {
   @apply font-notoSans text-secondary03;
 }

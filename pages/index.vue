@@ -5,6 +5,7 @@
                 flex flex-col
                 items-center
                 justify-center
+                mb-56
                 md:flex-row-reverse
             "
         >
@@ -16,7 +17,7 @@
                 <h1 v-else-if="moment === 'afternoon'" class="text-center pt-6">
                     Hi！午安
                 </h1>
-                <h1 else class="text-center pt-6">Hi！晚安</h1>
+                <h1 v-else class="text-center pt-6">Hi！晚安</h1>
 
                 <h1 class="text-center pb-10">我是 Winnie</h1>
                 <p class="text-lg font-light sm:max-w-[490px]">
@@ -27,28 +28,30 @@
         </section>
         <Hr id="projects" class="mb-10 md:mb-20" />
 
-        <section class="flex flex-col items-center justify-center">
+        <section class="flex flex-col items-center justify-center mb-20">
             <h2 class="mb-10">一起來看看我的 UI/UX 設計吧</h2>
-            <Card
-                :route="'/projects/railway-redesign'"
-                :img-url="require('~/assets/img/railway-cover.png')"
-                :title="'台鐵 e 訂通 APP Redesign'"
-                :description="'藉由重新整理功能架構與介面設計，提供更容易操作的訂票體驗。'"
-                :project-tag-time="{
-                    time: '2021 - JUL',
-                    tags: ['使用者介面', 'App'],
-                }"
-            />
-            <Card
-                :route="'/projects/metro-rwd'"
-                :img-url="require('~/assets/img/metro-cover.png')"
-                :title="'台北捷運官網 響應式網頁 RWD 設計提案'"
-                :description="'讓官方網站更符合所有裝置吧！'"
-                :project-tag-time="{
-                    time: '2021 - JUL',
-                    tags: ['網頁版', 'RWD'],
-                }"
-            />
+            <NuxtLink to="/projects/railway-redesign">
+                <Card
+                    :img-url="require('~/assets/img/railway-cover.png')"
+                    :title="'台鐵 e 訂通 APP Redesign'"
+                    :description="'藉由重新整理功能架構與介面設計，提供更容易操作的訂票體驗。'"
+                    :project-tag-time="{
+                        time: '2021 - JUL',
+                        tags: ['使用者介面', 'App'],
+                    }"
+                />
+            </NuxtLink>
+            <NuxtLink to="/projects/metro-rwd">
+                <Card
+                    :img-url="require('~/assets/img/metro-cover.png')"
+                    :title="'台北捷運官網 響應式網頁 RWD 設計提案'"
+                    :description="'讓官方網站更符合所有裝置吧！'"
+                    :project-tag-time="{
+                        time: '2021 - JUL',
+                        tags: ['網頁版', 'RWD'],
+                    }"
+                />
+            </NuxtLink>
         </section>
         <Hr :direction="'left'" />
     </main>
@@ -82,7 +85,4 @@ export default {
 </script>
 
 <style scoped>
-section {
-    @apply mb-60 mt-28;
-}
 </style>

@@ -101,7 +101,7 @@
         <section class="flex flex-col justify-center items-center">
             <div class="flex flex-row mb-20">
                 <img src="~/assets/img/ncue.png" alt="lion" class="mr-12" />
-                <div class="flex flex-col justify-center">
+                <div class="flex flex-col justify-center sm:w-[352px]">
                     <h1 class="text-xl mb-3">國立彰化師範大學</h1>
                     <span class="font-sans text-secondary04 mb-1"
                         >國文學系&nbsp;&nbsp;2009.Sep ~ 2013.Jun</span

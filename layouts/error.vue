@@ -2,7 +2,7 @@
     <div
         class="
             p-6
-            h-screen
+            h-5/6
             flex flex-col
             justify-center
             items-center
