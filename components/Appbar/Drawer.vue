@@ -13,6 +13,7 @@
             h-screen
             bg-secondary01
             opacity-80
+            shadow-md
         "
         :class="{ translateDrawer: open }"
     >
@@ -31,7 +32,14 @@
                 v-for="link in navLinks"
                 :key="link.name"
                 :to="{ path: link.url }"
-                class="linkElement navBtn mb-32 focus:outline-none"
+                class="
+                    navBtn
+                    mb-32
+                    focus:outline-none
+                    font-notoSans
+                    text-sm text-secondary04
+                    tracking-wide
+                "
                 @click.native="emitCloseDrawer()"
             >
                 {{ link.name }}
@@ -41,7 +49,6 @@
                 target="_blank"
                 class="
                     bg-primary
-                    text-white
                     align-middle
                     text-center
                     rounded-full
@@ -49,6 +56,9 @@
                     py-1
                     mx-auto
                     min-w-max
+                    font-notoSans
+                    tracking-wide
+                    text-sm text-secondary01
                 "
             >
                 下載履歷
@@ -87,8 +97,5 @@ export default {
 }
 .linkParent {
     list-style: none;
-}
-.linkElement {
-    font-size: clamp(14px, 4vw, 18px);
 }
 </style>

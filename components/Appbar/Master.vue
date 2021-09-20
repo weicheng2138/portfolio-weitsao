@@ -11,30 +11,19 @@
             h-[56px]
             shadow-sm
             px-4
-            md:justify-evenly
+            lg:justify-evenly
         "
     >
-        <div>
-            <a href="/">
-                <img
-                    src="~/static/wei-tsao-icon.svg"
-                    width="40"
-                    height="40"
-                    alt="wei-tsao-icon"
-                    class="inline-block mr-4"
-                />
-            </a>
-            <a
-                href="/"
-                class="
-                    inline-block
-                    text-center
-                    font-notoSans font-normal
-                    text-sm
-                "
-                >WEI．TSAO</a
-            >
-        </div>
+        <NuxtLink to="/">
+            <img
+                src="~/static/wei-tsao-icon.svg"
+                width="40"
+                height="40"
+                alt="wei-tsao-icon"
+                class="inline-block mr-4"
+            />
+            <h2 class="text-sm inline-block">WEI．TSAO</h2>
+        </NuxtLink>
         <div>
             <AppbarMenu
                 class="sm:hidden relative z-50"
@@ -57,6 +46,9 @@
                         px-5
                         py-[15px]
                         inline-block
+                        font-notoSans
+                        text-sm text-secondary04
+                        tracking-wide
                         hover:text-primary
                         focus:border-b-2 focus:border-primary
                     "
@@ -68,12 +60,18 @@
                     target="_blank"
                     class="
                         inline-block
-                        border border-black
+                        border border-secondary02
                         rounded-full
                         my-[11px]
                         ml-2
                         py-1
                         px-4
+                        font-notoSans
+                        text-sm text-secondary04
+                        tracking-wide
+                        hover:bg-primary
+                        hover:text-secondary01
+                        hover:border-secondary01
                     "
                 >
                     下載履歷

@@ -22,7 +22,7 @@
         />
         <div class="flex flex-col">
             <div class="mb-6 flex justify-between">
-                <p>{{ projectTagTime.time }}</p>
+                <p class="imgDescription">{{ projectTagTime.time }}</p>
                 <div class="flex">
                     <p
                         class="
@@ -32,7 +32,7 @@
                             rounded-lg
                             px-3
                             py-1
-                            text-sm
+                            text-xs text-secondary03
                         "
                     >
                         {{ projectTagTime.tags[0] }}
@@ -45,7 +45,7 @@
                             rounded-lg
                             px-3
                             py-1
-                            text-sm
+                            text-xs text-secondary03
                         "
                     >
                         {{ projectTagTime.tags[1] }}
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <h1 class="mb-6 text-xl">{{ title }}</h1>
-            <p class="mb-6">{{ description }}</p>
+            <p class="mb-6 imgDescription">{{ description }}</p>
             <button class="self-center text-primary">看看詳細內容</button>
         </div>
     </div>

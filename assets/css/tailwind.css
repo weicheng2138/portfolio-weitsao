@@ -8,8 +8,8 @@
 
 @layer components {
   main {
-    @apply lg:px-24 lg:pt-48 lg:w-full lg:min-h-screen lg:my-0 lg:mx-auto
-    md:px-8 md:pt-48 sm:px-8 sm:pt-36 px-4 pt-24;
+    @apply lg:px-[20%] lg:pt-48 lg:w-full lg:min-h-screen lg:my-0 lg:mx-auto
+    md:px-8 md:pt-48 sm:px-8 sm:pt-36 px-4 pt-24 bg-secondary01;
   }
 }
 
@@ -26,10 +26,6 @@ html {
   grid-template-columns: 100%;
 }
 
-p {
-  @apply font-notoSans text-secondary03;
-}
-
 h1 {
   @apply font-notoSerif text-[32px] tracking-wide;
 }
@@ -40,6 +36,14 @@ h2 {
 
 h3 {
   @apply font-notoSerif text-[20px] text-primaryDark;
+}
+
+p {
+  @apply font-notoSans text-secondary04 text-lg font-light;
+}
+
+.imgDescription {
+  @apply font-notoSans text-sm text-secondary03 tracking-wide;
 }
 
 li {

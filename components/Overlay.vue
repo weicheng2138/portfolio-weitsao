@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed inset-0 backdrop-filter backdrop-blur-sm"></div>
+    <div class="fixed inset-0 backdrop-filter backdrop-blur"></div>
 </template>
 
 <script>

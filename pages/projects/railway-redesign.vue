@@ -6,8 +6,8 @@
             class="object-cover translate-y-14 w-full lg:max-h-[400px]"
         />
         <main>
-            <div class="flex justify-between md:mx-10 lg:mx-28">
-                <p>2021 - JUL</p>
+            <div class="flex justify-between">
+                <p class="imgDescription">2021 - JUL</p>
                 <div class="flex flex-row">
                     <p
                         class="
@@ -17,7 +17,7 @@
                             rounded-lg
                             px-3
                             py-1
-                            text-sm
+                            text-xs text-secondary03
                         "
                     >
                         使用者介面
@@ -30,14 +30,14 @@
                             rounded-lg
                             px-3
                             py-1
-                            text-sm
+                            text-xs text-secondary03
                         "
                     >
                         App
                     </p>
                 </div>
             </div>
-            <h1 class="text-center mt-6 mb-16">台鐵 e 訂通 - App Redesign</h1>
+            <h1 class="mt-6 mb-16">台鐵 e 訂通 - App Redesign</h1>
             <Hr class="mb-20" />
 
             <section>
@@ -82,7 +82,9 @@
                             alt="railway-android"
                             class="w-[208px] h-[48px]"
                         />
-                        <p class="p-4 text-center">(來自Android - Play商店)</p>
+                        <p class="p-4 text-center imgDescription">
+                            (來自Android - Play商店)
+                        </p>
                     </div>
                     <div>
                         <img
@@ -90,7 +92,9 @@
                             alt="railway-ios"
                             class="w-[352px] h-[48px]"
                         />
-                        <p class="p-4 text-center">(來自iOS - App Store)</p>
+                        <p class="p-4 text-center imgDescription">
+                            (來自iOS - App Store)
+                        </p>
                     </div>
                 </div>
                 <img
@@ -115,7 +119,7 @@
                             flex flex-col
                             justify-between
                             w-[189px]
-                            h-[208px]
+                            h-[220px]
                             bg-primary
                             border-4 border-primary
                             rounded-lg
@@ -160,7 +164,7 @@
                             flex flex-col
                             justify-between
                             w-[189px]
-                            h-[208px]
+                            h-[220px]
                             bg-primary
                             border-4 border-primary
                             rounded-lg
@@ -205,7 +209,7 @@
                             flex flex-col
                             justify-between
                             w-[189px]
-                            h-[208px]
+                            h-[220px]
                             bg-primary
                             border-4 border-primary
                             rounded-lg
@@ -276,8 +280,8 @@
             </section>
             <Hr :direction="'left'" class="mb-20" />
 
-            <section>
-                <h1 class="text-center mb-4">設計畫面</h1>
+            <section class="flex flex-col">
+                <h1 class="text-center mb-20">設計畫面</h1>
                 <h3 class="mb-4">01｜重新安排首頁</h3>
                 <p class="mb-20">
                     在整理架構時，最直接遇到的便是首頁的排版。原則上將常用的快速按鈕放在首頁沒有問題，但是這個畫面經常只有在一打開
@@ -287,6 +291,65 @@
                     的功能非常多，在畫面上很長一串，又沒有明顯的分層，因此往往需要花費更多時間在尋找功能上。
                     <br /><br />為了節省時間、減少搜尋時的不耐煩，將側邊選單欄整合為底部導覽列，除了可以更快速的切換功能之外，頂部空出來的地方，也可以放置像是「最新消息」的功能。
                 </p>
+
+                <div
+                    class="
+                        flex
+                        self-center
+                        px-2
+                        mb-20
+                        sm:px-4
+                        md:px-8
+                        md:max-w-[850px]
+                    "
+                >
+                    <div class="flex flex-col mr-4 md:mr-10 lg:mr-20">
+                        <p
+                            class="
+                                inline-block
+                                text-center
+                                h-[40px]
+                                border-b-4 border-primary
+                                imgDescription
+                            "
+                        >
+                            Before
+                        </p>
+                        <div class="flex justify-between mt-4">
+                            <img
+                                src="~/assets/img/railway-design-menu-before.png"
+                                alt="railway-design-menu-before"
+                                class="w-[42%]"
+                            />
+                            <img
+                                src="~/assets/img/railway-design-main-before.png"
+                                alt="railway-design-main-before"
+                                class="w-[55%]"
+                            />
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <p
+                            class="
+                                inline-block
+                                text-center
+                                h-[40px]
+                                border-b-4 border-primary
+                                imgDescription
+                            "
+                        >
+                            After
+                        </p>
+                        <div class="flex mt-4">
+                            <img
+                                src="~/assets/img/railway-design-main-after.png"
+                                alt="railway-design-main-after"
+                                class="h-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+
                 <h3 class="mb-4">02｜調整訂票流程與畫面</h3>
                 <p class="mb-20">
                     車種與票種，那個條件應該更為優先？
@@ -295,17 +358,153 @@
                     <br /><br />其次，先指定車種，查詢結果只會出現單一車種，但是如果想看其他車種的時間與比較的話，需要重新設定篩選條件，增加搜尋上的阻礙。
                     <br /><br />為了改善金額顯示與提升搜尋彈性，因此將票種設定為優先選擇，一來可以改善金額顯示為正確，二來可以在搜尋結果頁面，新增切換車種的標籤，讓選擇車次可以更有彈性。
                 </p>
+                <div class="flex self-center px-2 mb-20 sm:px-4 md:px-8">
+                    <div class="flex flex-col mr-4 md:mr-10 lg:mr-20">
+                        <p
+                            class="
+                                inline-block
+                                text-center
+                                h-[40px]
+                                border-b-4 border-primary
+                                imgDescription
+                            "
+                        >
+                            Before
+                        </p>
+                        <img
+                            src="~/assets/img/railway-process-before.png"
+                            alt="railway-process-before"
+                            class="mt-4"
+                        />
+                    </div>
+                    <div class="flex flex-col">
+                        <p
+                            class="
+                                inline-block
+                                text-center
+                                h-[40px]
+                                border-b-4 border-primary
+                                imgDescription
+                            "
+                        >
+                            After
+                        </p>
+                        <img
+                            src="~/assets/img/railway-process-after.png"
+                            alt="railway-process-after"
+                            class="mt-4"
+                        />
+                    </div>
+                </div>
+
                 <h3 class="mb-4">03｜票證資訊的整理</h3>
                 <p class="mb-20">
                     在預訂完成後，沒有稍後付款的選項。如果想要稍後付款，要點其他功能才能離開此畫面，這會讓使用者感到不確定，
                     產生「如果按其他按鈕不知道會發生什麼事」的想法。另外，金額資訊也在不同區塊重複出現，會讓使用者不確定要以哪個區塊的金額為準。
                     <br /><br />由於上一部分已經針對訂票流程修改，因此在票證資訊的畫面，就不需要再選擇票種，畫面上也將金額資訊整理到同一區塊，最後再將行程資訊固定在右上角，避免散亂的感覺。
                 </p>
+                <div
+                    class="
+                        flex
+                        self-center
+                        px-2
+                        mb-20
+                        sm:px-4
+                        md:px-8
+                        md:max-w-[850px]
+                    "
+                >
+                    <div class="flex flex-col mr-4 md:mr-10 lg:mr-20">
+                        <p
+                            class="
+                                inline-block
+                                text-center
+                                h-[40px]
+                                border-b-4 border-primary
+                                imgDescription
+                            "
+                        >
+                            Before
+                        </p>
+                        <img
+                            src="~/assets/img/railway-ticket-before.png"
+                            alt="railway-ticket-before"
+                            class="mt-4"
+                        />
+                    </div>
+                    <div class="flex flex-col">
+                        <p
+                            class="
+                                inline-block
+                                text-center
+                                h-[40px]
+                                border-b-4 border-primary
+                                imgDescription
+                            "
+                        >
+                            After
+                        </p>
+                        <img
+                            src="~/assets/img/railway-ticket-after.png"
+                            alt="railway-ticket-after"
+                            class="mt-4"
+                        />
+                    </div>
+                </div>
+
                 <h3 class="mb-4">04｜整理票面資訊</h3>
                 <p class="mb-20">
                     車票預訂完成後，會有未付款、已付款（待取票）、已取票、分票，等等狀態，原先不同狀態的車票介面都不一樣，無法延續這些車票給使用者的一致性，因此將車票整理到同一個類別裡面，並且將車票的樣式統一規格。票面資訊重新整理，原本的顏色過多，字級也太過相近，無法判斷資訊的層級。
                     <br /><br />最後，將載入車票的功能固定在右上角，不論是領取分票、或是載入舊手機的車票都更加方便，不會隱藏在找不到的地方。
                 </p>
+                <div
+                    class="
+                        flex
+                        self-center
+                        px-2
+                        mb-20
+                        sm:px-4
+                        md:px-8
+                        md:max-w-[1080px]
+                    "
+                >
+                    <div class="flex flex-col mr-4 md:mr-10 lg:mr-20">
+                        <p
+                            class="
+                                inline-block
+                                text-center
+                                h-[40px]
+                                border-b-4 border-primary
+                                imgDescription
+                            "
+                        >
+                            Before
+                        </p>
+                        <img
+                            src="~/assets/img/railway-ticket-rollup-before.png"
+                            alt="railway-ticket-rollup-before"
+                            class="mt-4"
+                        />
+                    </div>
+                    <div class="flex flex-col">
+                        <p
+                            class="
+                                inline-block
+                                text-center
+                                h-[40px]
+                                border-b-4 border-primary
+                                imgDescription
+                            "
+                        >
+                            After
+                        </p>
+                        <img
+                            src="~/assets/img/railway-ticket-rollup-after.png"
+                            alt="railway-ticket-rollup-after"
+                            class="mt-4"
+                        />
+                    </div>
+                </div>
             </section>
             <Hr class="mb-20" />
 
@@ -385,7 +584,7 @@
                                         rounded-lg
                                         px-3
                                         py-1
-                                        text-sm
+                                        text-xs text-secondary03
                                     "
                                 >
                                     RWD 響應式設計
@@ -397,7 +596,7 @@
                                         rounded-lg
                                         px-3
                                         py-1
-                                        text-sm
+                                        text-xs text-secondary03
                                     "
                                 >
                                     網頁版
