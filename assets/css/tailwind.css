@@ -1,15 +1,38 @@
 /* ./assets/css/tailwind.css */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap'); */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: 'Noto Sans TC';
+    font-weight: 300;
+    src: url('assets/fonts/NotoSansTC-Light.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Noto Sans TC';
+    font-weight: 400;
+    src: url('assets/fonts/NotoSansTC-Regular.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Noto Serif TC';
+    font-weight: 700;
+    src: url('assets/fonts/NotoSerifTC-Bold.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Noto Serif TC';
+    font-weight: 900;
+    src: url('assets/fonts/NotoSerifTC-Black.otf') format('opentype');
+  }
+}
+
 @layer components {
   main {
     @apply lg:px-[20%] lg:pt-48 lg:w-full lg:min-h-screen lg:my-0 lg:mx-auto
-    md:px-8 md:pt-48 sm:px-8 sm:pt-36 px-4 pt-24 bg-secondary01;
+    sm:px-8  md:pt-48  sm:pt-36 px-4 pt-24 bg-secondary01;
   }
 }
 
@@ -27,7 +50,7 @@ html {
 }
 
 h1 {
-  @apply font-notoSerif text-[32px] tracking-wide;
+  @apply font-notoSerif font-bold text-[32px] tracking-wide;
 }
 
 h2 {
@@ -35,7 +58,7 @@ h2 {
 }
 
 h3 {
-  @apply font-notoSerif text-[20px] text-primaryDark;
+  @apply font-notoSerif font-black text-[20px] text-primaryDark;
 }
 
 p {

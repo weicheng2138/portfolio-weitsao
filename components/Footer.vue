@@ -15,7 +15,7 @@
         <div class="social mb-20 mt-10 sm:m-0">
             <a href="http://">
                 <img
-                    src="~/assets/img/behance.svg"
+                    src="~/assets/images/behance.svg"
                     width="35"
                     height="35"
                     alt="behance-icon"
@@ -24,7 +24,7 @@
 
             <a href="http://">
                 <img
-                    src="~/assets/img/ig.svg"
+                    src="~/assets/images/ig.svg"
                     width="35"
                     height="35"
                     alt="ig-icon"
@@ -33,7 +33,7 @@
 
             <a href="">
                 <img
-                    src="~/assets/img/CakeResume.svg"
+                    src="~/assets/images/CakeResume.svg"
                     width="35"
                     height="35"
                     alt="CakeResume-icon"
@@ -41,7 +41,7 @@
             </a>
             <a href="http://">
                 <img
-                    src="~/assets/img/gmail.svg"
+                    src="~/assets/images/gmail.svg"
                     width="35"
                     height="35"
                     alt="gmail-icon"

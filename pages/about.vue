@@ -25,19 +25,19 @@
         <h2 class="text-center">工作技能</h2>
         <section class="flex flex-row justify-evenly">
             <div class="iconDiv">
-                <img src="~/assets/img/ui-design.png" alt="ui-design" />
+                <img src="~/assets/images/ui-design.png" alt="ui-design" />
                 <p>UI 介面設計</p>
             </div>
             <div class="iconDiv">
-                <img src="~/assets/img/prototype.png" alt="prototype" />
+                <img src="~/assets/images/prototype.png" alt="prototype" />
                 <p>Prototype 製作</p>
             </div>
             <div class="iconDiv">
-                <img src="~/assets/img/logo-icon.png" alt="logo-icon" />
+                <img src="~/assets/images/logo-icon.png" alt="logo-icon" />
                 <p>Logo / Icon 繪製</p>
             </div>
             <div class="iconDiv">
-                <img src="~/assets/img/drawing.png" alt="drawing" />
+                <img src="~/assets/images/drawing.png" alt="drawing" />
                 <p>插畫繪製</p>
             </div>
         </section>
@@ -45,19 +45,19 @@
         <h2 class="text-center">使用軟體</h2>
         <section class="flex flex-row justify-evenly">
             <div class="iconDiv">
-                <img src="~/assets/img/figma.png" alt="figma" />
+                <img src="~/assets/images/figma.png" alt="figma" />
                 <p>Figma</p>
             </div>
             <div class="iconDiv">
-                <img src="~/assets/img/illustrator.png" alt="illustrator" />
+                <img src="~/assets/images/illustrator.png" alt="illustrator" />
                 <p>Adobe Illustrator</p>
             </div>
             <div class="iconDiv">
-                <img src="~/assets/img/photoshop.png" alt="photoshop" />
+                <img src="~/assets/images/photoshop.png" alt="photoshop" />
                 <p>Adobe Photoshop</p>
             </div>
             <div class="iconDiv">
-                <img src="~/assets/img/procreate.png" alt="procreate" />
+                <img src="~/assets/images/procreate.png" alt="procreate" />
                 <p>Procreate</p>
             </div>
         </section>
@@ -65,7 +65,7 @@
         <h2 class="text-center">工作經驗</h2>
         <section class="flex flex-col justify-center items-center">
             <div class="flex flex-row mb-20">
-                <img src="~/assets/img/lion.png" alt="lion" class="mr-12" />
+                <img src="~/assets/images/lion.png" alt="lion" class="mr-12" />
                 <div class="flex flex-col justify-center">
                     <h1 class="text-xl mb-3">國際訂房 OP 專員</h1>
                     <span class="font-sans text-secondary04 mb-1"
@@ -80,7 +80,7 @@
             </div>
 
             <div class="flex flex-row mb-20">
-                <img src="~/assets/img/lion.png" alt="lion" class="mr-12" />
+                <img src="~/assets/images/lion.png" alt="lion" class="mr-12" />
                 <div class="flex flex-col justify-center sm:w-[352px]">
                     <h1 class="text-xl mb-3">門市業務專員</h1>
                     <span class="font-sans text-secondary04 mb-1"
@@ -98,7 +98,7 @@
         <h2 class="text-center">學歷</h2>
         <section class="flex flex-col justify-center items-center">
             <div class="flex flex-row mb-20">
-                <img src="~/assets/img/ncue.png" alt="lion" class="mr-12" />
+                <img src="~/assets/images/ncue.png" alt="lion" class="mr-12" />
                 <div class="flex flex-col justify-center sm:w-[352px]">
                     <h1 class="text-xl mb-3">國立彰化師範大學</h1>
                     <span class="font-sans text-secondary04 mb-1"

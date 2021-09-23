@@ -2,7 +2,7 @@
     <div
         class="
             p-6
-            h-5/6
+            h-screen
             flex flex-col
             justify-center
             items-center
@@ -43,8 +43,7 @@
 
 <script>
 export default {
-    layout: 'error',
-    // eslint-disable-next-line vue/require-prop-types
-    props: ['error'], // you can set a custom layout for the error page
+    layout: 'error_layout',
+    props: ['error'],
 }
 </script>

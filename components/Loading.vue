@@ -1,8 +1,11 @@
 <template lang="html">
-    <div v-if="isLoading" class="flex justify-center items-center h-screen bg-primary">
-        <div class=" text-5xl text-white">
-            Landing...
-        </div>
+    <div
+        v-if="isLoading"
+        class="flex justify-center items-center h-screen bg-primary"
+    >
+        <picture class="h-12 w-12">
+        <img src="~/assets/gif/landing.gif" alt="landing"  />
+        </picture>
     </div>
 </template>
 

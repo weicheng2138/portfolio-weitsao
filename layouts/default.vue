@@ -14,6 +14,7 @@
                 class="z-20"
                 @click.native="changeMenuStatus"
             ></Overlay>
+            <TopButton class="z-10" />
             <Nuxt class="z-0" />
             <Footer />
         </div>
@@ -22,7 +23,9 @@
 
 <script>
 import { navLinks } from '@/config'
+import TopButton from '~/components/TopButton.vue'
 export default {
+    components: { TopButton },
     data() {
         return {
             isLoading: true,

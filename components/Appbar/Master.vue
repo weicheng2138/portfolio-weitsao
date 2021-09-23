@@ -11,7 +11,8 @@
             h-[56px]
             shadow-sm
             px-4
-            lg:justify-evenly
+            sm:px-8
+            lg:px-[20%]
         "
     >
         <NuxtLink to="/">

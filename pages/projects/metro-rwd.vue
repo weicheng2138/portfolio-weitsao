@@ -1,7 +1,7 @@
 <template>
     <div>
         <img
-            src="~/assets/img/metro-main.png"
+            src="~/assets/images/metro-main.png"
             alt="metro-main"
             class="
                 object-cover
@@ -12,7 +12,7 @@
             "
         />
         <img
-            src="~/assets/img/metro-main-wide.png"
+            src="~/assets/images/metro-main-wide.png"
             alt="metro-main"
             class="
                 hidden
@@ -88,7 +88,10 @@
                     根據不同類型的裝置尺寸，規劃出常用的 1920, 1366, 992, 768,
                     414 五種斷點。
                 </p>
-                <img src="~/assets/img/metro-layout.png" alt="metro-layout" />
+                <img
+                    src="~/assets/images/metro-layout.png"
+                    alt="metro-layout"
+                />
             </section>
             <Hr class="mb-20" />
 
@@ -104,7 +107,10 @@
                 <p class="mb-20">
                     號誌燈的漸層顏色、路線本身的顏色、以及為了凸顯區塊的底色，過多的顏色會讓視覺感到疲累。因此將燈號改為單色空心圓圈，以及將背景色改為外框。同時具備「突顯此區塊」與「視覺簡潔化」的效果。
                 </p>
-                <img src="~/assets/img/metro-status.png" alt="metro-status" />
+                <img
+                    src="~/assets/images/metro-status.png"
+                    alt="metro-status"
+                />
                 <p class="text-center mt-6 mb-10 imgDescription">
                     Before | 字級不同、排列不一、背景底色，讓資訊判讀變得不容易
                 </p>
@@ -142,7 +148,7 @@
                         class="mr-4 w-3/12 md:w-1/6"
                     />
                     <img
-                        src="~/assets/img/metro-label-web-before.png"
+                        src="~/assets/images/metro-label-web-before.png"
                         alt="metro-label-web-before"
                         class="w-8/12 md:w-3/6"
                     />
@@ -158,7 +164,7 @@
                         class="mr-4 w-3/12 md:w-1/6"
                     />
                     <img
-                        src="~/assets/img/metro-label-web-after.png"
+                        src="~/assets/images/metro-label-web-after.png"
                         alt="metro-label-web-after"
                         class="w-8/12 md:w-3/6"
                     />
@@ -191,7 +197,7 @@
                         class="mr-4 w-3/12 md:w-1/6"
                     />
                     <img
-                        src="~/assets/img/metro-landmark-web-before.png"
+                        src="~/assets/images/metro-landmark-web-before.png"
                         alt="metro-label-web-before"
                         class="w-8/12 md:w-3/6"
                     />
@@ -203,12 +209,12 @@
 
                 <div class="flex flex-row justify-center mb-6">
                     <img
-                        src="~/assets/img/metro-landmark-after.png"
+                        src="~/assets/images/metro-landmark-after.png"
                         alt="metro-news-after"
                         class="mr-4 w-3/12 md:w-1/6"
                     />
                     <img
-                        src="~/assets/img/metro-landmark-web-after.png"
+                        src="~/assets/images/metro-landmark-web-after.png"
                         alt="metro-label-web-after"
                         class="w-8/12 md:w-3/6"
                     />
@@ -254,7 +260,7 @@
                         "
                     >
                         <img
-                            src="~/assets/img/railway-cover.png"
+                            src="~/assets/images/railway-cover.png"
                             alt="cover"
                             class="
                                 rounded-lg

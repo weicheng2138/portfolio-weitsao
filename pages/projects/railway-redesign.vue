@@ -1,7 +1,7 @@
 <template>
     <div>
         <img
-            src="~/assets/img/railway-main.png"
+            src="~/assets/images/railway-main.png"
             alt="metro-main"
             class="object-cover translate-y-14 w-full lg:max-h-[400px]"
         />
@@ -78,7 +78,7 @@
                 >
                     <div>
                         <img
-                            src="~/assets/img/railway-android.png"
+                            src="~/assets/images/railway-android.png"
                             alt="railway-android"
                             class="w-[208px] h-[48px]"
                         />
@@ -88,7 +88,7 @@
                     </div>
                     <div>
                         <img
-                            src="~/assets/img/railway-ios.png"
+                            src="~/assets/images/railway-ios.png"
                             alt="railway-ios"
                             class="w-[352px] h-[48px]"
                         />
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <img
-                    src="~/assets/img/railway-comments.png"
+                    src="~/assets/images/railway-comments.png"
                     alt="railway-comments"
                     class="md:max-w-[760px] self-center mb-20"
                 />
@@ -270,11 +270,11 @@
             <section class="mb-20">
                 <h1 class="text-center mb-20">調整架構</h1>
                 <img
-                    src="~/assets/img/railway-hierarchy-1.png"
+                    src="~/assets/images/railway-hierarchy-1.png"
                     alt="railway-hierarchy-1"
                 />
                 <img
-                    src="~/assets/img/railway-hierarchy-2.png"
+                    src="~/assets/images/railway-hierarchy-2.png"
                     alt="railway-hierarchy-2"
                 />
             </section>
@@ -317,12 +317,12 @@
                         </p>
                         <div class="flex justify-between mt-4">
                             <img
-                                src="~/assets/img/railway-design-menu-before.png"
+                                src="~/assets/images/railway-design-menu-before.png"
                                 alt="railway-design-menu-before"
                                 class="w-[42%]"
                             />
                             <img
-                                src="~/assets/img/railway-design-main-before.png"
+                                src="~/assets/images/railway-design-main-before.png"
                                 alt="railway-design-main-before"
                                 class="w-[55%]"
                             />
@@ -342,7 +342,7 @@
                         </p>
                         <div class="flex mt-4">
                             <img
-                                src="~/assets/img/railway-design-main-after.png"
+                                src="~/assets/images/railway-design-main-after.png"
                                 alt="railway-design-main-after"
                                 class="h-auto"
                             />
@@ -372,7 +372,7 @@
                             Before
                         </p>
                         <img
-                            src="~/assets/img/railway-process-before.png"
+                            src="~/assets/images/railway-process-before.png"
                             alt="railway-process-before"
                             class="mt-4"
                         />
@@ -390,7 +390,7 @@
                             After
                         </p>
                         <img
-                            src="~/assets/img/railway-process-after.png"
+                            src="~/assets/images/railway-process-after.png"
                             alt="railway-process-after"
                             class="mt-4"
                         />
@@ -427,7 +427,7 @@
                             Before
                         </p>
                         <img
-                            src="~/assets/img/railway-ticket-before.png"
+                            src="~/assets/images/railway-ticket-before.png"
                             alt="railway-ticket-before"
                             class="mt-4"
                         />
@@ -445,7 +445,7 @@
                             After
                         </p>
                         <img
-                            src="~/assets/img/railway-ticket-after.png"
+                            src="~/assets/images/railway-ticket-after.png"
                             alt="railway-ticket-after"
                             class="mt-4"
                         />
@@ -481,7 +481,7 @@
                             Before
                         </p>
                         <img
-                            src="~/assets/img/railway-ticket-rollup-before.png"
+                            src="~/assets/images/railway-ticket-rollup-before.png"
                             alt="railway-ticket-rollup-before"
                             class="mt-4"
                         />
@@ -499,7 +499,7 @@
                             After
                         </p>
                         <img
-                            src="~/assets/img/railway-ticket-rollup-after.png"
+                            src="~/assets/images/railway-ticket-rollup-after.png"
                             alt="railway-ticket-rollup-after"
                             class="mt-4"
                         />
@@ -515,7 +515,7 @@
                     的顏色，也能夠符合台鐵的企業色，但是為了讓畫面有層次感，以及達到提示、分層的效果，因此額外增加了相同色系的色彩作為輔助使用。
                 </p>
                 <img
-                    src="~/assets/img/railway-core-template.png"
+                    src="~/assets/images/railway-core-template.png"
                     alt="railway-core-template"
                 />
             </section>
@@ -561,7 +561,7 @@
                         "
                     >
                         <img
-                            src="~/assets/img/metro-cover.png"
+                            src="~/assets/images/metro-cover.png"
                             alt="cover"
                             class="
                                 rounded-lg
