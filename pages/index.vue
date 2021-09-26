@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="mt-[56px] sm:mt-[70px] pt-10 sm:pt-20">
         <section
             class="
                 flex flex-col

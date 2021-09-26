@@ -1,6 +1,7 @@
 <template lang="html">
     <div
         v-if="isLoading"
+        key="key"
         class="flex justify-center items-center h-screen bg-primary"
     >
         <picture class="h-12 w-12">

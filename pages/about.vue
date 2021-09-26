@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="mt-[56px] sm:mt-[70px]">
         <section class="flex flex-col justify-center items-center">
             <img src="" alt="winnie" class="w-64 h-60 mb-20" />
             <h2>嗨～你好，我是 Winnie</h2>

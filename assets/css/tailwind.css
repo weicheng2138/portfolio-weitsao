@@ -31,15 +31,14 @@
 
 @layer components {
   main {
-    @apply lg:px-[20%] lg:pt-48 lg:w-full lg:min-h-screen lg:my-0 lg:mx-auto
-    sm:px-8  md:pt-48  sm:pt-36 px-4 pt-24 bg-secondary01;
+    @apply lg:px-[20%] lg:w-full lg:min-h-screen lg:my-0 lg:mx-auto
+    sm:px-8  px-4  bg-secondary01;
   }
 }
 
 html {
-  box-sizing: border-box;
-  width: 100%;
   scroll-behavior: smooth;
+  @apply bg-secondary01 box-border w-full;
 }
 
 #root {

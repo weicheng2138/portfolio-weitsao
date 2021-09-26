@@ -3,6 +3,8 @@
         <Loading :is-loading="isLoading" />
         <div v-if="!isLoading" class="relative flex flex-col min-h-screen">
             <AppbarMaster
+                id="appbar"
+                v-top-target-scroll
                 :menu-open="menuOpen"
                 :nav-links="navLinks"
                 class="z-40"
@@ -14,7 +16,7 @@
                 class="z-20"
                 @click.native="changeMenuStatus"
             ></Overlay>
-            <TopButton class="z-10" />
+            <TopButton v-top-hidden-scroll class="z-10" />
             <Nuxt class="z-0" />
             <Footer />
         </div>
@@ -36,15 +38,13 @@ export default {
     },
     watch: {
         menuOpen() {
-            if (this.menuOpen) {
-                document
-                    .querySelector('body')
-                    .setAttribute('style', 'overflow:hidden')
-            } else {
-                document
-                    .querySelector('body')
-                    .setAttribute('style', 'overflow:auto')
-            }
+            this.menuOpen
+                ? document
+                      .querySelector('body')
+                      .setAttribute('style', 'overflow:hidden')
+                : document
+                      .querySelector('body')
+                      .setAttribute('style', 'overflow:auto')
         },
     },
     mounted() {

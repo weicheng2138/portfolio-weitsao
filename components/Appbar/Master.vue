@@ -11,6 +11,7 @@
             h-[56px]
             shadow-sm
             px-4
+            transition
             sm:px-8
             lg:px-[20%]
         "
@@ -83,6 +84,7 @@
 </template>
 
 <script>
+import _ from 'lodash'
 export default {
     props: {
         menuOpen: {
@@ -101,7 +103,24 @@ export default {
             topScroll: true,
             lastScrollPosition: 0,
             scrollValue: 0,
+            counter: 0,
         }
+    },
+    mounted() {
+        // Handle window resize
+        window.addEventListener('resize', _.throttle(this.onResize, 200))
+        // Handle scroll event
+        this.lastScrollPosition = window.pageYOffset
+        // window.addEventListener('scroll', this.onScroll)
+        window.addEventListener('scroll', _.throttle(this.onScroll, 200))
+        const viewportMeta = document.createElement('meta')
+        viewportMeta.name = 'viewport'
+        viewportMeta.content = 'width=device-width, initial-scale=1'
+        document.head.appendChild(viewportMeta)
+    },
+    destroyed() {
+        window.removeEventListener('resize', this.myEventHandler)
+        window.removeEventListener('scroll', this.onScroll)
     },
     methods: {
         emitMenuStatus() {
@@ -113,6 +132,8 @@ export default {
             }
         },
         onScroll() {
+            this.counter++
+            console.log(this.counter)
             if (window.pageYOffset < 0) {
                 return
             }
@@ -131,5 +152,11 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
+.hiddenNavbar {
+    @apply transform translate-y-[-70px];
+}
+.topNavBar {
+    @apply h-[56px];
+}
 </style>

@@ -5,9 +5,11 @@
             alt="metro-main"
             class="
                 object-cover
-                translate-y-14
                 w-full
-                md:max-h-[400px]
+                mt-[56px]
+                h-[240px]
+                md:h-[320px]
+                lg:h-[440px]
                 lg:hidden
             "
         />
@@ -17,13 +19,15 @@
             class="
                 hidden
                 object-cover
-                translate-y-14
                 w-full
+                mt-[56px]
+                h-[240px]
+                md:h-[320px]
+                lg:h-[440px]
                 lg:block
-                lg:max-h-[400px]
             "
         />
-        <main>
+        <main class="pt-12 lg:pt-20">
             <div class="flex justify-between">
                 <p class="imgDescription">2021 - JUL</p>
                 <div class="flex flex-row">

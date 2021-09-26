@@ -5,17 +5,23 @@
                 fixed
                 bottom-8
                 right-4
-                text-white
-                bg-gray-300
+                border border-secondary03
+                bg-secondary01
+                opacity-50
                 w-20
                 h-20
                 rounded-full
                 text-sm
+                imgDescription
                 shadow-md
                 hover:bg-primary
+                hover:opacity-100
+                hover:border-0
+                hover:text-secondary01
                 sm:right-8
                 lg:right-[20%]
             "
+            @click="srollToTop()"
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +43,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+    methods: {
+        srollToTop() {
+            document.documentElement.scrollTop = 0
+        },
+    },
+}
 </script>
 
 <style  scoped>
