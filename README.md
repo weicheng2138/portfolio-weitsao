@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-    <a href="https://app.netlify.com/sites/weichenghung/deploys" target="_blank">
-        <img src="https://api.netlify.com/api/v1/badges/0262ca05-6cd5-415a-839b-e2c9a61338e1/deploy-status" alt="Netlify Status" />
+    <a href="https://app.netlify.com/sites/weitsao/deploys" target="_blank">
+        <img src="https://api.netlify.com/api/v1/badges/a86e8ccc-be41-464e-aada-a7acb935970c/deploy-status" alt="Netlify Status" />
     </a>
 </p>
 
