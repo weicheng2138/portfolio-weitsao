@@ -15,7 +15,7 @@
                 "
             />
             <div class="pt-20">
-                <h2>嗨～你好，我是 Winnie</h2>
+                <h2 class="mb-10">嗨～你好，我是 Winnie</h2>
                 <p>
                     我喜歡簡單明確且具備美觀的使用者介面，想打造直覺且友善的使用者環境，讓更多人享受到
                     UI/UX 為生活帶來的改變。
@@ -28,8 +28,10 @@
             </div>
         </section>
 
-        <h2 class="text-center my-20">工作技能</h2>
-        <section class="grid grid-cols-2 sm:flex sm:flex-row sm:justify-evenly">
+        <h2 class="text-center mb-20 mt-20">工作技能</h2>
+        <section
+            class="grid grid-cols-2 mb-20 sm:flex sm:flex-row sm:justify-evenly"
+        >
             <div class="iconDiv">
                 <img
                     src="~/assets/images/ui-design.png"
@@ -64,8 +66,10 @@
             </div>
         </section>
 
-        <h2 class="text-center">使用軟體</h2>
-        <section class="grid grid-cols-2 sm:flex sm:flex-row sm:justify-evenly">
+        <h2 class="text-center mb-20">使用軟體</h2>
+        <section
+            class="grid grid-cols-2 mb-20 sm:flex sm:flex-row sm:justify-evenly"
+        >
             <div class="iconDiv">
                 <img
                     src="~/assets/images/figma.png"
@@ -100,8 +104,8 @@
             </div>
         </section>
 
-        <h2 class="text-center">工作經驗</h2>
-        <section class="flex flex-col sm:justify-center">
+        <h2 class="text-center mb-20">工作經驗</h2>
+        <section class="flex flex-col mb-20 sm:justify-center">
             <div class="grid grid-cols-3 grid-rows-2 lg:grid-rows-1 mb-20">
                 <img
                     src="~/static/wei-tsao-icon.svg"
@@ -124,7 +128,7 @@
                 >
                     <h1 class="text-xl mb-3">接案設計師</h1>
                     <span class="font-sans text-secondary04 mb-1"
-                        >雄自由接案&nbsp;&nbsp;2020.Dec ~ 2021.Now</span
+                        >自由接案&nbsp;&nbsp;2020.Dec ~ 2021.Now</span
                     >
                 </div>
                 <ul class="pl-4 col-span-2 lg:col-span-1">
@@ -199,7 +203,7 @@
             </div>
         </section>
 
-        <h2 class="text-center">學歷</h2>
+        <h2 class="text-center mb-20">學歷</h2>
         <section class="flex flex-col sm:justify-center">
             <div class="grid grid-cols-3 grid-rows-2 lg:grid-rows-1 mb-20">
                 <img
@@ -241,9 +245,6 @@ export default {}
 </script>
 
 <style  scoped>
-h2 {
-    @apply mb-10;
-}
 p {
     @apply mb-20;
 }
@@ -257,6 +258,9 @@ p {
     @apply mb-6 w-[50px] h-[50px] sm:w-[70px] sm:h-[70px];
 }
 li {
-    @apply list-disc;
+    @apply list-disc text-sm leading-6 text-secondary03;
+}
+span {
+    @apply text-sm;
 }
 </style>

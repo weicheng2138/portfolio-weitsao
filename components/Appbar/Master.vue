@@ -65,7 +65,7 @@
                         {{ link.name }}
                     </NuxtLink>
                     <a
-                        href="/weichenghung_cv_l2.pdf"
+                        href="/weitsao_resume.pdf"
                         target="_blank"
                         class="
                             inline-block

@@ -81,8 +81,10 @@
                     text-center
                 "
             >
-                Design - Winnie Tsao | <a href=""> Build - Keck Hung</a> <br />©
-                2021
+                <a href="" class="hover:text-primary">Design - Winnie Tsao</a>
+                |
+                <a href="" class="hover:text-primary">Build - Keck Hung</a>
+                <br />© 2021
             </p>
         </div>
     </footer>

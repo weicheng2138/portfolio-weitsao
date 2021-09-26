@@ -5,11 +5,16 @@
                 flex flex-col
                 items-center
                 justify-center
-                mb-56
+                mb-6
+                sm:mb-56
                 md:flex-row-reverse
             "
         >
-            <img src="" alt="winnie tsao" class="w-60 h-60 md:ml-6" />
+            <img
+                src="~/assets/gif/site-cover.gif"
+                alt="winnie tsao"
+                class="w-60 h-60 md:ml-6 lg:h-80 lg:w-80"
+            />
             <div>
                 <h1 v-if="moment === 'morning'" class="text-center pt-6">
                     Hi！早安
@@ -21,14 +26,17 @@
 
                 <h1 class="text-center pb-10">我是 Winnie</h1>
                 <p class="text-lg sm:max-w-[490px]">
-                    我觀察細膩、擅於傾聽。我想做出好看又好用、受到使用者喜愛的產品。正在朝向成為
+                    我觀察細膩、擅於傾聽。我想做出好看好用、讓使用者感到溫暖的產品。正在朝向成為
                     UI/UX 設計師持續精進中。
                 </p>
             </div>
         </section>
-        <Hr id="projects" class="mb-10 md:mb-20" />
+        <Hr class="mb-10 md:mb-20" />
 
-        <section class="flex flex-col items-center justify-center mb-20">
+        <section
+            id="projects"
+            class="flex flex-col items-center justify-center mb-20"
+        >
             <h2 class="mb-10">一起來看看我的 UI/UX 設計吧</h2>
             <NuxtLink to="/projects/railway-redesign">
                 <Card
