@@ -1,7 +1,10 @@
 <template>
     <div id="root">
         <Loading :is-loading="isLoading" />
-        <div v-if="!isLoading" class="relative flex flex-col min-h-screen">
+        <div
+            v-if="!isLoading"
+            class="relative flex flex-col min-h-screen items-center"
+        >
             <AppbarMaster
                 id="appbar"
                 v-top-target-scroll

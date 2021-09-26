@@ -5,6 +5,7 @@
             flex flex-col
             justify-center
             items-center
+            w-full
             border-b-[6px] border-primary
             sm:flex-row
             sm:justify-evenly
