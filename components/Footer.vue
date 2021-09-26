@@ -83,7 +83,13 @@
             >
                 <a href="" class="hover:text-primary">Design - Winnie Tsao</a>
                 |
-                <a href="" class="hover:text-primary">Build - Keck Hung</a>
+                <a
+                    href="https://github.com/weicheng2138/portfolio-weitsao"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:text-primary"
+                    >Build - Keck Hung</a
+                >
                 <br />© 2021
             </p>
         </div>

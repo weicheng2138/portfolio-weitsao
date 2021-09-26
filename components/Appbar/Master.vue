@@ -53,7 +53,7 @@
                         :to="{ path: link.url }"
                         class="
                             px-5
-                            py-[15px]
+                            py-[17px]
                             inline-block
                             font-notoSans
                             text-sm text-secondary04
