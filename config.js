@@ -1,24 +1,12 @@
 module.exports = {
-  email: 'weicheng2138g@gmail.com',
+  email: 'hl6jo3@gmail.com',
 
-  socialMedia: [
-    {
-      name: 'GitHub',
-      url: 'https://github.com/weicheng2138',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/keckhung2138',
-    },
-    {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/wei-cheng-hung-3a40a0149',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/weicheng2138',
-    },
-  ],
+  socialMedia: {
+    behance: 'https://www.behance.net/weitsao',
+    instagram: 'https://www.instagram.com/bianbiantsao/',
+    cakeResume: 'https://www.linkedin.com/in/wei-cheng-hung-3a40a0149',
+    gmail: 'hl6jo3@gmail.com',
+  },
 
   navLinks: [
     {

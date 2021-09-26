@@ -83,7 +83,7 @@
                             hover:border-secondary01
                         "
                     >
-                        下載履歷
+                        下載簡歷
                     </a>
                 </div>
             </div>

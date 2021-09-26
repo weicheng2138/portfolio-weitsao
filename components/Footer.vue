@@ -14,7 +14,11 @@
         "
     >
         <div class="social mb-20 mt-10 sm:m-0">
-            <a href="http://">
+            <a
+                :href="`${socialMedia.behance}`"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 <img
                     src="~/assets/images/behance.svg"
                     width="35"
@@ -23,7 +27,11 @@
                 />
             </a>
 
-            <a href="http://">
+            <a
+                :href="`${socialMedia.instagram}`"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 <img
                     src="~/assets/images/ig.svg"
                     width="35"
@@ -32,7 +40,11 @@
                 />
             </a>
 
-            <a href="">
+            <a
+                :href="`${socialMedia.cakeResume}`"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 <img
                     src="~/assets/images/CakeResume.svg"
                     width="35"
@@ -40,7 +52,7 @@
                     alt="CakeResume-icon"
                 />
             </a>
-            <a href="http://">
+            <a :href="`mailto:${socialMedia.gmail}`">
                 <img
                     src="~/assets/images/gmail.svg"
                     width="35"
@@ -49,8 +61,8 @@
                 />
             </a>
         </div>
-        <div>
-            <a href="/">
+        <div class="flex flex-col items-center">
+            <NuxtLink to="/">
                 <img
                     src="~/static/wei-tsao-icon.svg"
                     width="40"
@@ -58,20 +70,19 @@
                     alt="wei-tsao-icon"
                     class="inline-block mr-4"
                 />
-            </a>
-            <a
-                href="/"
+                <h2 class="text-sm inline-block">WEI．TSAO</h2>
+            </NuxtLink>
+            <p
                 class="
-                    inline-block
+                    text-secondary03 text-xs
+                    mb-10
+                    leading-5
+                    sm:mb-3
                     text-center
-                    font-notoSans font-normal
-                    text-sm
                 "
-                >WEI．TSAO</a
             >
-            <p class="text-secondary03 text-xs mb-10 leading-5 sm:mb-3">
-                © 2021 Designed by Winnie Tsao <br />
-                Built by Keck Hung
+                Design - Winnie Tsao | <a href=""> Build - Keck Hung</a> <br />©
+                2021
             </p>
         </div>
     </footer>

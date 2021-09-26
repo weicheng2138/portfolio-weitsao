@@ -8,6 +8,7 @@
                     w-[400px]
                     h-[240px]
                     mt-20
+                    lg:mt-0
                     lg:mr-20
                     object-cover
                     rounded-xl
@@ -100,65 +101,136 @@
         </section>
 
         <h2 class="text-center">工作經驗</h2>
-        <section class="flex flex-col sm:justify-center sm:items-center">
-            <div class="flex flex-row mb-20">
+        <section class="flex flex-col sm:justify-center">
+            <div class="grid grid-cols-3 grid-rows-2 lg:grid-rows-1 mb-20">
+                <img
+                    src="~/static/wei-tsao-icon.svg"
+                    alt="lion"
+                    class="
+                        w-[70px]
+                        h-[70px]
+                        row-span-2
+                        justify-self-center
+                        self-center
+                    "
+                />
+                <div
+                    class="
+                        flex flex-col
+                        justify-center
+                        col-span-2
+                        lg:col-span-1
+                    "
+                >
+                    <h1 class="text-xl mb-3">接案設計師</h1>
+                    <span class="font-sans text-secondary04 mb-1"
+                        >雄自由接案&nbsp;&nbsp;2020.Dec ~ 2021.Now</span
+                    >
+                </div>
+                <ul class="pl-4 col-span-2 lg:col-span-1">
+                    <li>名片設計</li>
+                    <li>Logo 設計</li>
+                    <li>手冊設計</li>
+                </ul>
+            </div>
+
+            <div class="grid grid-cols-3 grid-rows-2 lg:grid-rows-1 mb-20">
                 <img
                     src="~/assets/images/lion.png"
                     alt="lion"
-                    class="mr-12 imgIcon"
+                    class="
+                        w-[70px]
+                        h-[70px]
+                        row-span-2
+                        justify-self-center
+                        self-center
+                    "
                 />
-                <div class="flex flex-col justify-center">
+                <div
+                    class="
+                        flex flex-col
+                        justify-center
+                        col-span-2
+                        lg:col-span-1
+                    "
+                >
                     <h1 class="text-xl mb-3">國際訂房 OP 專員</h1>
                     <span class="font-sans text-secondary04 mb-1"
                         >雄獅旅行社&nbsp;&nbsp;2016.Sep ~ 2020.Dec</span
                     >
-                    <ul class="pl-4">
-                        <li>處理國際訂房相關事務，具備危機處理能力。</li>
-                        <li>與業務、供應商多方合作，具備溝通協調能力。</li>
-                        <li>曾經參與優化國際訂房相關 SOP 流程制訂。</li>
-                    </ul>
                 </div>
+                <ul class="pl-4 col-span-2 lg:col-span-1">
+                    <li>處理國際訂房相關事務，具備危機處理能力。</li>
+                    <li>與業務、供應商多方合作，具備溝通協調能力。</li>
+                    <li>曾經參與優化國際訂房相關 SOP 流程制訂。</li>
+                </ul>
             </div>
 
-            <div class="flex flex-row mb-20">
+            <div class="grid grid-cols-3 grid-rows-2 lg:grid-rows-1 mb-20">
                 <img
                     src="~/assets/images/lion.png"
                     alt="lion"
-                    class="mr-12 imgIcon"
+                    class="
+                        w-[70px]
+                        h-[70px]
+                        row-span-2
+                        justify-self-center
+                        self-center
+                    "
                 />
-                <div class="flex flex-col sm:justify-center sm:w-[352px]">
+                <div
+                    class="
+                        flex flex-col
+                        justify-center
+                        col-span-2
+                        lg:col-span-1
+                    "
+                >
                     <h1 class="text-xl mb-3">門市業務專員</h1>
                     <span class="font-sans text-secondary04 mb-1"
                         >雄獅旅行社&nbsp;&nbsp;2014.Mar ~ 2016.Sep</span
                     >
-                    <ul class="pl-4">
-                        <li>具備產品銷售技能。</li>
-                        <li>協助旅客辦理各項國內外旅遊事宜。</li>
-                        <li>曾為門市業績最佳業務。</li>
-                    </ul>
                 </div>
+                <ul class="pl-4 col-span-2 lg:col-span-1">
+                    <li>具備產品銷售技能。</li>
+                    <li>協助旅客辦理各項國內外旅遊事宜。</li>
+                    <li>曾為門市業績最佳業務。</li>
+                </ul>
             </div>
         </section>
 
         <h2 class="text-center">學歷</h2>
-        <section class="flex flex-col sm:justify-center items-center">
-            <div class="flex flex-row mb-20">
+        <section class="flex flex-col sm:justify-center">
+            <div class="grid grid-cols-3 grid-rows-2 lg:grid-rows-1 mb-20">
                 <img
                     src="~/assets/images/ncue.png"
                     alt="lion"
-                    class="mr-12 imgIcon"
+                    class="
+                        w-[70px]
+                        h-[70px]
+                        row-span-2
+                        justify-self-center
+                        self-center
+                    "
                 />
-                <div class="flex flex-col justify-center sm:w-[352px]">
+                <div
+                    class="
+                        flex flex-col
+                        justify-center
+                        col-span-2
+                        lg:col-span-1
+                    "
+                >
                     <h1 class="text-xl mb-3">國立彰化師範大學</h1>
                     <span class="font-sans text-secondary04 mb-1"
                         >國文學系&nbsp;&nbsp;2009.Sep ~ 2013.Jun</span
                     >
-                    <ul class="pl-4">
-                        <li>
-                            主修中國文學，同時修習教育學程，一併取得合格教師資格
-                        </li>
-                    </ul>
                 </div>
+                <ul class="pl-4 col-span-2 self-center lg:col-span-1">
+                    <li>
+                        主修中國文學，同時修習教育學程，一併取得合格教師資格
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
