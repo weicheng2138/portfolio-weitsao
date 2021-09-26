@@ -1,8 +1,8 @@
 # portfolio-weitsao
 
 <p align="center">
-    <a href="https://weichenghung.com" target="_blank">
-        weichenghung.com
+    <a href="https://weitsao.com" target="_blank">
+        weitsao.com
     </a>
 </p>
 
@@ -12,9 +12,9 @@
     </a>
 </p>
 
-![demo](static/img/portfolio_screenshot.png)
+![demo](static/portfolio_screenshot.png)
 
-This is my portfolio which consider design of [brittanychiang.com](https://brittanychiang.com) as my reference and change theme from my practice project of [portfolio-nuxt](https://weichenghung-demo.netlify.app/). Change theme color and neumorphic design for button.
+This is my love's portfolio which is designed by [weitsao.com](https://weitsao.com). It's my duty to accomplish it with honor and joy.
 
 ## 🛠️ Build Setup
 
@@ -37,16 +37,18 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## 🎨 Color Reference
 
-| Color                      | Hex                                                                |
-| -------------------------- | ------------------------------------------------------------------ |
-| Background Color (bgColor) | ![#E5E7EB](https://via.placeholder.com/10/E5E7EB?text=+) `#E5E7EB` |
-| Slate                      | ![#588157](https://via.placeholder.com/10/588157?text=+) `#588157` |
-| Light Slate                | ![#588157](https://via.placeholder.com/10/588157?text=+) `#588157` |
-| Lightest Slate             | ![#b5b5b5](https://via.placeholder.com/10/b5b5b5?text=+) `#b5b5b5` |
-| White                      | ![#ced4da](https://via.placeholder.com/10/ced4da?text=+) `#ced4da` |
-| Orange (bcColor)           | ![#ef8354](https://via.placeholder.com/10/ef8354?text=+) `#ef8354` |
+| Color                    | Hex                                                                |
+| ------------------------ | ------------------------------------------------------------------ |
+| Primary Color            | ![#F9BF45](https://via.placeholder.com/10/F9BF45?text=+) `#F9BF45` |
+| Primary Light            | ![#FAD689](https://via.placeholder.com/10/FAD689?text=+) `#FAD689` |
+| primary Dark             | ![#C28F06](https://via.placeholder.com/10/C28F06?text=+) `#C28F06` |
+| Secondary01 (Background) | ![#FAFAFA](https://via.placeholder.com/10/FAFAFA?text=+) `#FAFAFA` |
+| Secondary02              | ![#E0E0E0](https://via.placeholder.com/10/E0E0E0?text=+) `#E0E0E0` |
+| Secondary03              | ![#757575](https://via.placeholder.com/10/757575?text=+) `#757575` |
+| Secondary04              | ![#212121](https://via.placeholder.com/10/212121?text=+) `#212121` |
 
 ## Developing Tips
 
 - When you try to pass img url string as props to a component, the props you need to pass as
   `require('~/assets/img/metro-cover.png')`
+- Use throttle from lodash to reduce the loading of onScroll event.
