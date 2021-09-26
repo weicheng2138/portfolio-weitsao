@@ -19,7 +19,9 @@
                 hover:border-0
                 hover:text-secondary01
                 sm:right-8
-                lg:right-[20%]
+                lg:right-[50%]
+                lg:transform
+                lg:translate-x-[500px]
             "
             @click="srollToTop()"
         >

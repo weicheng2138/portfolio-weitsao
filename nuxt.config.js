@@ -44,4 +44,6 @@ export default {
   build: {
     extractCSS: true,
   },
+
+  target: 'static',
 }
