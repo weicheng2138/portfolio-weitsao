@@ -5,8 +5,8 @@
                 flex flex-col
                 items-center
                 justify-center
-                mb-6
-                sm:mb-56
+                mb-10
+                sm:mb-20
                 md:flex-row-reverse
             "
         >
