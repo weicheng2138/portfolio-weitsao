@@ -528,6 +528,17 @@
             </section>
             <Hr :direction="'left'" class="mb-20" />
 
+            <section class="w-full flex flex-col justify-center items-center">
+                <h1 class="text-center mb-20">Prototype</h1>
+                <iframe
+                    class="max-w-[340px] rounded-xl mb-20"
+                    height="700px"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ftoc3EkzXkqW6E5O4Wk6gnK%2F%E5%8F%B0%E9%90%B5e%E8%A8%82%E9%80%9A-App-Redesign%3Fpage-id%3D78%253A162%26node-id%3D172%253A286%26viewport%3D241%252C48%252C0.1%26scaling%3Dscale-down%26starting-point-node-id%3D425%253A2075"
+                    allowfullscreen
+                ></iframe>
+            </section>
+            <Hr class="mb-20" />
+
             <section>
                 <h1 class="text-center mb-20">後記</h1>
                 <p class="mb-20">
@@ -544,7 +555,7 @@
                     評價可以很快速獲得大量的使用者回饋，但真實的使用者訪談可以挖掘出更多更加具體的問題內容。
                 </p>
             </section>
-            <Hr class="mb-20" />
+            <Hr :direction="'left'" class="mb-20" />
 
             <section class="flex flex-col justify-center items-center">
                 <h1 class="text-center mb-20">看看其他專案</h1>

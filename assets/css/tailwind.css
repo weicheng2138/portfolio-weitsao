@@ -32,7 +32,7 @@
 @layer components {
   main {
     @apply lg:max-w-4xl lg:w-full lg:min-h-screen lg:my-0 lg:mx-auto
-    sm:px-8  px-4  bg-secondary01;
+    sm:px-8 px-4 bg-secondary01;
   }
 }
 
