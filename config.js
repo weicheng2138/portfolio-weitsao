@@ -4,7 +4,7 @@ module.exports = {
   socialMedia: {
     behance: 'https://www.behance.net/weitsao',
     instagram: 'https://www.instagram.com/bianbiantsao/',
-    cakeResume: 'https://www.linkedin.com/in/wei-cheng-hung-3a40a0149',
+    cakeResume: 'https://www.cakeresume.com/wei-tsao-67581c',
     gmail: 'hl6jo3@gmail.com',
   },
 

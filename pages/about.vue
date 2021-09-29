@@ -255,7 +255,7 @@ p {
     @apply flex-1 flex flex-col items-center;
 }
 .imgIcon {
-    @apply mb-6 w-[50px] h-[50px] sm:w-[70px] sm:h-[70px];
+    @apply mb-6 w-[70px] h-[70px];
 }
 li {
     @apply list-disc text-sm leading-6 text-secondary03;

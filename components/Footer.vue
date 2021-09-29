@@ -81,7 +81,13 @@
                     text-center
                 "
             >
-                <a href="" class="hover:text-primary">Design - Winnie Tsao</a>
+                <a
+                    href="https://www.figma.com/file/rzg5W1yvaaoIlZZiauW0IQ/作品集?node-id=40%3A37"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:text-primary"
+                    >Design - Winnie Tsao</a
+                >
                 |
                 <a
                     href="https://github.com/weicheng2138/portfolio-weitsao"
