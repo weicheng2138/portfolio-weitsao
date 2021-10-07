@@ -106,10 +106,10 @@
 
         <h2 class="text-center mb-20">工作經驗</h2>
         <section class="flex flex-col mb-20 sm:justify-center">
-            <div class="grid grid-cols-3 grid-rows-2 lg:grid-rows-1 mb-20">
+            <div class="grid grid-cols-3 lg:grid-rows-1 mb-20">
                 <img
                     src="~/static/wei-tsao-icon.svg"
-                    alt="lion"
+                    alt="wei-tsao-icon"
                     class="
                         w-[70px]
                         h-[70px]
@@ -138,7 +138,7 @@
                 </ul>
             </div>
 
-            <div class="grid grid-cols-3 grid-rows-2 lg:grid-rows-1 mb-20">
+            <div class="grid grid-cols-3 lg:grid-rows-1 mb-20">
                 <img
                     src="~/assets/images/lion.png"
                     alt="lion"
@@ -170,7 +170,7 @@
                 </ul>
             </div>
 
-            <div class="grid grid-cols-3 grid-rows-2 lg:grid-rows-1 mb-20">
+            <div class="grid grid-cols-3 lg:grid-rows-1 mb-20">
                 <img
                     src="~/assets/images/lion.png"
                     alt="lion"
@@ -205,10 +205,10 @@
 
         <h2 class="text-center mb-20">學歷</h2>
         <section class="flex flex-col sm:justify-center">
-            <div class="grid grid-cols-3 grid-rows-2 lg:grid-rows-1 mb-20">
+            <div class="grid grid-cols-3 lg:grid-rows-1 mb-20">
                 <img
                     src="~/assets/images/ncue.png"
-                    alt="lion"
+                    alt="ncue-logo"
                     class="
                         w-[70px]
                         h-[70px]
